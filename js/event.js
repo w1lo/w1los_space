@@ -52,9 +52,6 @@ function OnLoadEventHandler() {
     TimePrev = performance.now();
     TimeNow = performance.now();
 
-    /*INIT UI*/
-    UITarger = Image(window.innerWidth, window.innerHeight);
-
     /*START GAME*/
     requestAnimationFrame(NextFrame);
 }

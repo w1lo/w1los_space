@@ -20,8 +20,6 @@ var GL = null;
 var RenderSettings = null;
 var ModelQueue = [];
 
-var UITarger = null;
-
 //Timing
 var TimePrev = null;
 var TimeNow = null;
